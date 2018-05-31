@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ataei.abbas.zekrshomar.ZekrActivity"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:onClick="increment" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="29dp"
+        android:textColor="@android:color/black"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/numberOfZekr"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/shamseh"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textColor="@android:color/black"
+        android:textSize="29dp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

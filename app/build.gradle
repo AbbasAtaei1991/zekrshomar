@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'myAlias'
+            keyPassword 'd5pa2k1991'
+            storeFile file('C:/Users/ALI/Key/mykey.jks')
+            storePassword '8712282126'
+        }
+    }
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.ataei.abbas.zekrshomar"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 3
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'uk.co.chrisjenx:calligraphy:2.2.0'
+    implementation 'com.afollestad.material-dialogs:core:0.9.4.5'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}

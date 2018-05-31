@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ذکر شمار</string>
+    <string name="yekshanbe">یا ذالجلال و الاکرام</string>
+    <string name="doshanbe">یا قاضی الحاجات</string>
+    <string name="seshanbe">یا ارحم الراحمین</string>
+    <string name="charshanbe">یا حی و یا قیوم</string>
+    <string name="panjshanbe">لا اله الا الله الملک الحق المبین</string>
+    <string name="jome">اللهم صل علی محمد و آل محمد و عجل فرجهم</string>
+    <string name="shanbe">یا رب العالمین</string>
+    <string name="_0">0</string>
+    <string name="reset">شروع مجدد</string>
+    <string name="rakat">رکعت شمار</string>
+    <string name="rokat">رکعت :</string>
+    <string name="sajde">سجده :</string>
+    <string name="payan">التماس دعا</string>
+    <string name="title">رکعت شمار</string>
+    <string name="rahnamaa">روش استفاده</string>
+    <string name="rahnama">راهنما</string>
+    <string name="tavajoh">توجه</string>
+    <string name="matn">
+گوشی را طوری نزدیک مهر قرار دهید که با رفتن به سجده صورت شما نزدیک حسگر مجاورت ( گوشه بالا سمت چپ گوشی ) قرار بگیرد.
+</string>
+    <string name="tab">لمس کنید</string>
+    <string name="namazsobh">نماز صبح</string>
+    <string name="qaza">نماز و روزه ی قضا</string>
+    <string name="roozeqaza">روزه ی قضا</string>
+    <string name="esha">نماز عشاء</string>
+    <string name="maqreb">نماز مغرب</string>
+    <string name="asr">نماز عصر</string>
+    <string name="zohr">نماز ظهر</string>
+    <string name="abzar">ابزارهای اسلامی</string>
+    <string name="save">ذخیره</string>
+    <string name="khorouj">برای خروج از برنامه مجددا روی دکمه بازگشت کلیک کنید</string>
+    <string name="entekhab">انتخاب ذکر</string>
+    <string name="about">درباره</string>
+    <string name="titlee">ابزارهای اسلامی نسخه 1.0</string>
+    <string name="about_us">نظرات ، پیشنهادات و انتقادات خود را با ما در میان بگذارید
+    a.ataei1991@gmail.com</string>
+    <string-array name="tedad">
+        <item>اول</item>
+        <item>دوم</item>
+        <item>سوم</item>
+        <item>چهارم</item>
+    </string-array>
+
+</resources>
